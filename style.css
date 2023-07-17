@@ -1,0 +1,181 @@
+body{margin: 0;
+    background-color: #eeecf5;}    
+    
+    .wrapper{max-width: 1560px;
+    min-width: 320px;}
+    
+    main{margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }    
+    
+    h1{padding-left: 10px;}
+    
+    .input-data {display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    gap: 20px;
+    }
+    
+    input{ font-size: 20px;
+    padding-left: 10px;
+    white-space: nowrap;
+    margin-top: 5px;
+    width: 26%;
+    font-size: 115%;
+    
+    }
+    
+    button{ font-size: 20px;
+    padding-left: 10px;
+    width: 150px;}
+    
+    #create{background-color: #21730c;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 18px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    height: 26px;
+    width: 170px;}
+    
+    
+    .input-search{display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+    padding-left: 10px;}
+    
+    #search{margin: 0;
+    width: 230px;}
+    
+    #sort-by-name, #sort-by-age{font-size: 20px;
+        width: 50px;
+    }
+    
+    
+    
+    .input-search span{font-size: 18px;
+    white-space: nowrap;}
+    
+    label{white-space: nowrap;}
+    
+    .input-search button {font-size: 18px;
+    height: 28px;
+    background: #ecece9;
+    border: 1px solid gray;}
+    
+    .user-card {font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    border: 1px solid green;
+    padding: 10px;
+    }
+    
+    .user-card1 {font-size: 20px;
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5px;
+    margin: auto;
+    }
+    
+    .user-card2 {font-size: 20px;
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    gap: 30px;
+    margin: auto;
+    }
+    .user-card1 span{ border: 1px solid grey;
+    width: 270px;
+    height: 23px;
+    padding-left: 10px; 
+    background-color: #fff;
+    padding-top: 2px;
+    margin-top: 5px;
+    }
+    
+    .delete-user-button {width: 150px;
+    background-color: #db0f0ffc;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    height: 26px;
+    white-space: nowrap;}
+    
+    .edit-user-button{font-size: 18px;
+    height: 25px;
+    border: 1px solid gray;
+    margin-top: 5px;
+    background-color: #d3d3d0;
+    font-size: 16px;
+    width: 17%;
+    }
+    
+    #pagination{margin: 20px 0 20px; 
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      flex-wrap: nowrap;
+     }
+    
+     #pagination button{flex:  0  1 20px;
+      background-color: #fff;
+      border: 1px solid grey;
+      font-size: 16px;
+      
+     }
+    
+    
+    
+     @media screen and (max-width: 800px) {
+        .input-data{flex-wrap: wrap;
+        gap: 5px;}
+        input{flex-wrap: wrap;}
+        .input-search{flex-wrap: wrap;}
+    
+        input {width: 100%;
+            font-size: 20px;
+      }
+    
+        #search{width: 100%;}
+    
+    
+    
+      .user-card span{width: 100%;}
+    
+      .user-card1 {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .user-card{width: 100%;
+    }
+    
+    .edit-user-button{width: 50%;
+    font-size: 80%;}
+    
+    .delete-user-button {width: 50%;
+    font-size: 80%;}
+    
+    #create{width: 50%;
+    font-size: 90%;}
+    
+     }
+     
+    
+     
+    
